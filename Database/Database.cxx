@@ -125,7 +125,7 @@ double Database::calculateSupplierInventoryValue(const std::string& supplier) co
     for (unsigned int i = 0; i < this->data.length(); ++i) {
         const TradeOperation& op = this->data[i];
         
-        if (op.getSupplier() == supplier && !op.isSold()) {
+        if (op.getSupplier() == supplier) {
             totalValue += op.getPurchasePrice() * op.getPurchaseQuantity();
         }
     }

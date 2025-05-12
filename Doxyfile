@@ -1,0 +1,16 @@
+EXTRACT_ALL = YES
+EXTRACT_PRIVATE = YES
+HAVE_DOT = YES
+CLASS_DIAGRAMS = YES
+RECURSIVE = YES
+INPUT                  = src/ Crypter/ Database/ Filer/ Interface/ List/ TradeOperation/
+FILE_PATTERNS          = *.hxx *.cxx
+CLASS_GRAPH          = YES
+COLLABORATION_GRAPH  = YES
+GRAPHICAL_HIERARCHY  = YES
+HIDE_UNDOC_RELATIONS = NO
+UML_LOOK           = YES
+CALL_GRAPH         = YES
+CALLER_GRAPH       = YES
+DOT_PATH           = /usr/bin
+DOT_IMAGE_FORMAT   = svg
